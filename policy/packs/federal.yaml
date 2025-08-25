@@ -1,0 +1,12 @@
+name: Federal (FAR baseline)
+jurisdiction_code: FED
+thresholds:
+  micro_purchase: 10000
+  simplified_acquisition: 250000
+compliance:
+  require_vpat_508: true
+  require_section_889_rep: true
+  check_sam_exclusions: true
+  baa_taa_applicable: true
+source_selection:
+  methods: ["LPTA","Best Value Tradeoff"]

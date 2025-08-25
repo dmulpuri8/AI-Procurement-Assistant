@@ -1,0 +1,8 @@
+# Python 3.13-friendly baseline (no compiled NLP deps required)
+streamlit==1.36.0
+pandas==2.2.2
+jinja2==3.1.4
+PyYAML==6.0.2
+reportlab==4.2.2
+pypdf==4.3.1
+python-docx==1.1.2

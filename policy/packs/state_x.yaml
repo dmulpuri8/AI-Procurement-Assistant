@@ -1,0 +1,12 @@
+name: State X (sample)
+jurisdiction_code: STATE_X
+thresholds:
+  micro_purchase: 5000
+  simplified_acquisition: 100000
+compliance:
+  require_vpat_508: true
+  require_section_889_rep: false
+  check_sam_exclusions: true
+  baa_taa_applicable: false
+source_selection:
+  methods: ["LPTA","Best Value Tradeoff"]
